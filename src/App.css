@@ -1,0 +1,16 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 0 24px;
+}
+
+.drag-area {
+  min-height: 80px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.drag-area--focused {
+  background-color: lightgray;
+}
